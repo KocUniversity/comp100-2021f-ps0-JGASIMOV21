@@ -1,1 +1,12 @@
-print('sup')
+import numpy
+print("Start of session")
+print("-----")
+a=int(input("Enter the number you want to be raised:"))
+b=int(input("Enter the degree you want this number to be raised to:"))
+c=(a**b)
+print(a,"raised to the power of",b,"is",c)
+d=numpy.log2(a)
+print("Base 2 log of",a,"is: ",d)
+print("79012")
+print("End of session.")
+print("-----")
